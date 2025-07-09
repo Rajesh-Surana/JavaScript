@@ -1,0 +1,21 @@
+#op{
+display: inline;
+}
+.mult{
+    background-color: aqua;
+    padding: 200px;
+}
+#op button{
+    margin: 20px;
+    background-color: whitesmoke;
+    width: 30px;
+    height: 35px;
+padding: 11px;
+}
+
+    <div id="op">
+        <button>+</button>
+        <button>-</button>
+        <button class="mult">*</button>
+        <button>/</button>
+        </div>

@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    background-color: rgb(40, 231, 231);
+}
+#outer div,#outer h2{
+    display: flex;
+    justify-content: center;
+}
+/* select{
+    border-radius: 5px;
+    border:2px solid black;
+    margin-left: 100px;
+    height:2em;
+    width:200px;
+    padding-left: 10px;
+} */
+ #buttons button{
+    margin:20px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    font-size:larger;
+ }
+ #b3{
+    padding-top: 9px;
+ }
+h2{
+    color: black;
+    letter-spacing: 1px;
+}
+#num1{
+    margin-top: 0px;
+}
+#num2{
+    margin-top:15px;
+}
+input{
+    border-radius: 6px;
+    border: 2px solid chocolate;
+    margin-top: 10px;
+    height: 2em;
+    width: 200px;
+    padding-left: 10px;   
+}
+#outer{
+    height: 320px;
+    width: 400px;
+    margin: 95px auto;
+    background-color: chocolate;
+    border-radius: 10px;
+    padding: 10px;
+}
+input:active{
+    border:none;
+}
+button{
+    margin-top: 5px;
+    background-color: gold;
+    border-radius: 4px; 
+    height: 30px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    border: none;
+    color: blueviolet;
+}
+button:focus{
+    color: blue;
+}
+button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#result{
+    color: rgb(10, 6, 244);
+    margin-top: 20px;
+    font-size: 25px;
+}
