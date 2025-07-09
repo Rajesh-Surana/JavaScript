@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+}
+#outer div,#outer h2{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    color:  rgb(231, 238, 97);
+    letter-spacing: 1px;
+}
+#ta{
+    background-color: rgb(199, 233, 221);
+    border-radius: 7px;
+    border: 2px solid black;
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+}
+#outer{
+    padding: 1px 0px auto;
+    height:460px;
+    width: 350px;
+    background-color: rgb(18, 18, 14);
+    border: 0px solid rgb(231, 238, 97);
+    border-radius: 7px;
+    padding: 10px; 
+    margin: 50px auto;
+}
+textarea:active{
+    border: none;
+}
+button{
+    margin: 9px auto;
+    margin-top: 14px;
+    background-color:rgb(231, 238, 97);
+    border-radius: 7px;
+    color: blueviolet;
+    height: 35px;
+    width: 150px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    border: none;
+
+}
+button:focus{
+    color: blue;
+}
+button:hover{
+    cursor:pointer;
+    color:red;
+}
+#result{
+    color: white;
+    margin-top: 6px;
+    font-size: 30px;
+    color:rgb(231, 238, 97)
+}
+
